@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Libre Franklin";
+}
+
+body {
+    background-color: rgb(29, 23, 23);
+    color: white;
+}
+
+.cont {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: auto;
+}
+
+.-logo {
+    margin-top: 100px;
+    font-size: 10rem;
+}
+
+.-logo h2 {
+    font-size: 4rem;
+}
+
+.container-txt {
+    margin-bottom: 100px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a#ins {
+    margin: auto;
+    background-color: rgb(238, 6, 6);
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a#ins:hover {
+    transition: .3s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(19, 39, 31);
+}
+
+
+/*css para registo*/
+
+.links-2 a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50rem;
+    margin: 2rem auto;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+#link-face {
+    background-color: blue;
+}
+
+#link-face:hover {
+    background-color: rgb(11, 11, 192);
+}
+
+#link-google {
+    background-color: rgb(24, 108, 204);
+}
+
+#link-google:hover {
+    background-color: rgb(10, 86, 173);
+}
+
+#link-email {
+    background-color: rgb(182, 0, 24);
+}
+
+#link-email:hover {
+    background-color: rgb(121, 2, 18);
+}
+
+#footer-inicio {
+    font-size: 2rem;
+    margin: 10rem auto 0 auto;
+    text-align: center;
+}
